@@ -14,6 +14,10 @@ pip install datetime
 
 After download libraries start main.py
 
+
+
+# Фото-бот
+
 Это скрипт для скачивания фонов для телефонов и компьютеров.
 # Быстрый старт
 
