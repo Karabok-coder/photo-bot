@@ -8,7 +8,6 @@ from info import *
 
 
 def GetSite(sitenum, i):
-    #для 3-го сайта другое выражение поэтому так
     if sitenum == 3: return requests.get(sites[sitenum - 1] + s_last_1 + str(i) + s_last_3)
     return requests.get(sites[sitenum - 1] + s_last_1 + str(i) + s_last_2)
 
